@@ -1,0 +1,307 @@
+/* body {
+  background: linear-gradient(#000000 100% 50%, #52057b 100%);
+}
+*/
+
+/******************** TAG SELECTORS ********************/
+
+body {
+  background: linear-gradient(180deg,#040507 -9.06%,#000000 111.63%);
+  color: #fff;
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2em;
+  line-height: 2.2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5.5rem; /* rem = root and ignores parent ; 1em or 100% = 16px, 88px/16*100 = 550% */
+  font-weight: 900;
+  line-height: 6.0rem;
+  margin: 0 auto 0 auto;
+  text-transform: uppercase;
+  width: 33%;
+  max-width: 100%;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4.0rem; /* rem = root and ignores parent ; 1em or 100% = 16px, 88px/16*100 = 550% */
+  font-weight: 700;
+  line-height: 4.5rem;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 80%;
+  max-width: 80%;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 2.2rem;
+  font-style: italic;
+  line-height: 2.5rem;
+  margin-top: 20px;
+  padding: 0 100px 0 100px;
+  text-transform: capitalize;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  width: 6%; /* Best to use %'s for responseive */
+  border-style: dotted none none;
+  border-color: #eeeeee;
+  border-width: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+a {
+  color: #f3a712;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff0066;
+}
+
+/******************** CLASS/DIV SELECTORS ********************/
+
+.body-opacity {
+  opacity: 0.5;
+}
+
+.special {
+  font-family: 'Sacramento', cursive;
+}
+
+.top-container {
+  background-color: #040507;
+  font-family: 'Montserrat', sans-serif;
+  height: 74px;
+  margin: 0;
+  position: relative;
+}
+
+.menu {
+  background-color: #040507;
+  color: #fff;
+  display: grid;
+  font-size: 1.0rem;
+  line-height: 1.0rem;
+  height: 54px;
+  margin: 0;
+  opacity: 0.9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  position: fixed;
+  text-decoration: none;
+  text-align: right;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.menu-items ul {
+  list-style: none;
+}
+
+.menu-items li {
+  display: inline-block;
+  padding-right: 50px;
+  text-transform: uppercase;
+}
+
+.logo {
+  color: #ff0066;
+  display: grid;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.0rem;
+  font-weight: bold;
+  line-height: 2.0rem;
+  height: 54px;
+  margin: 0;
+  opacity: 0.9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  position: fixed;
+  text-decoration: none;
+  text-align: left;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.logo p {
+  padding-left: 0;
+}
+
+.mid-container {
+  text-align: center;
+}
+
+.bottom-container {
+  background-color: #462255;
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  padding: 50px 0 20px;
+}
+
+.footer-link {
+  font-family: 'Roboto Slab', serif;
+  margin: 10px 20px;
+}
+
+.copyright {
+  font-family: 'Roboto Slab', serif;
+  font-size: 15px;
+  padding: 15px;
+}
+
+.space-100 {
+  height: 100px;
+  width: 100%;
+}
+
+.space-33 {
+  height: 33px;
+  width: 100%;
+}
+
+.space-20 {
+  height: 20px;
+  width: 100%;
+}
+
+.h3nospace {
+  margin-bottom:3px;
+}
+
+.pro {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 1.7;
+}
+
+.skill-h {
+  text-align: left;
+  padding: 0;
+}
+
+.skill-img-left {
+  width: 25%;
+  border-radius: 100%;
+  float: left; /* USE FLOAT ONLY FOR WRAPPING TEXT */
+  margin-right: 30px;
+}
+
+.skill-img-right {
+  width: 25%;
+  border-radius: 100%;
+  float: right; /* USE FLOAT ONLY FOR WRAPPING TEXT */
+  margin-left: 30px;
+}
+
+/* the CSS 'clear' is to unwrap text around an image. Example shown for skill description
+.skill-description-left {
+  clear: left;
+}
+
+.skill-description-right {
+  clear: right;
+} */
+
+.btn {
+  border: 2px solid #ff0066;
+  border-radius: 2px;
+  color: #ff0066;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px 23px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #ff0066;
+  color: #ffffff;
+}
+
+.contact-me {
+  background-color: #34344a;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.p-big {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.8rem;
+  font-weight: 200;
+  line-height: 2.5rem;
+  margin: auto;
+  padding: 33px 0;
+  text-align: center;
+  width: 50%;
+}
+
+/******************** ID SELECTORS ********************/
+
+#back-to-top {
+  background-color: #f3a712;
+  border: none;
+  bottom: 20px;
+  border-radius: 4px;
+  color: #040507;
+  cursor: pointer;
+  display: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  outline: none;
+  padding: 15px;
+  position: fixed;
+  right: 30px;
+  z-index: 99;
+}
+
+#back-to-top:hover {
+  background-color: #040507;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
